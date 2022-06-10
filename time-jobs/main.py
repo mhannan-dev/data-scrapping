@@ -23,6 +23,7 @@ def find_jobs():
                 f.write(f"More info: {more_info.strip()} \n")
             print(f"Jobs saved: {index}")
 
+
 if __name__ == '__main__':
     while True:
         find_jobs()
